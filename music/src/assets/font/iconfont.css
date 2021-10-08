@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2689290 */
+  src: url('iconfont.woff2?t=1627267617535') format('woff2'),
+       url('iconfont.woff?t=1627267617535') format('woff'),
+       url('iconfont.ttf?t=1627267617535') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shanchu:before {
+  content: "\e8b6";
+}
+
+.icon-laba:before {
+  content: "\e62d";
+}
+
+.icon-shanchu1:before {
+  content: "\e615";
+}
+
+.icon-xunhuan:before {
+  content: "\e7b1";
+}
+
+.icon-xunhuan1:before {
+  content: "\e61f";
+}
+
+.icon-random:before {
+  content: "\ea7c";
+}
+
+.icon-aixin:before {
+  content: "\e61b";
+}
+
+.icon-SanMiAppoutlinei:before {
+  content: "\e696";
+}
+
+.icon-SanMiAppoutlinei1:before {
+  content: "\e697";
+}
+
+.icon-zanting1:before {
+  content: "\e60c";
+}
+
+.icon-ico_zanting_xuanzhong:before {
+  content: "\e612";
+}
+
+.icon-add:before {
+  content: "\e664";
+}
+
+.icon-arrow-down:before {
+  content: "\e665";
+}
+
+.icon-arrow-left-bold:before {
+  content: "\e685";
+}
+
+.icon-arrow-up-bold:before {
+  content: "\e686";
+}
+
+.icon-arrow-up-filling:before {
+  content: "\e688";
+}
+
+.icon-arrow-down-filling:before {
+  content: "\e689";
+}
+
+.icon-arrow-left-filling:before {
+  content: "\e68a";
+}
+
+.icon-arrow-right-filling:before {
+  content: "\e68b";
+}
+
+.icon-bofang:before {
+  content: "\e604";
+}
+
+.icon-gengduo:before {
+  content: "\e631";
+}
+
+.icon-icon-:before {
+  content: "\e614";
+}
+
+.icon-search:before {
+  content: "\e67d";
+}
+
+.icon-zujian-icon-32:before {
+  content: "\e607";
+}
+
