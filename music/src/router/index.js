@@ -3,7 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Search from "../views/Search.vue";
 import PlayList from "../views/PlayList.vue";
-import login from "../views/login.vue";
+// import login from "../views/login.vue";
 
 Vue.use(VueRouter);
 
@@ -35,11 +35,11 @@ const routes = [
     name: "PlayList",
     component: PlayList,
   },
-  {
-    path: "/login",
-    name: "login",
-    component: login,
-  },
+  // {
+  //   path: "/login",
+  //   name: "login",
+  //   component: login,
+  // },
 ];
 
 const router = new VueRouter({
@@ -47,16 +47,16 @@ const router = new VueRouter({
 });
 
 // 挂载路由守卫，验证token是否已存在
-router.beforeEach((to, from, next) => {
-  // console.log(to);
-  if (to.path === '/login') return next();
-  const tokenStr = window.localStorage.getItem('token');
-  if (!tokenStr ||tokenStr=='undefined')
-  {
-    console.log('token');
-    return next('/login');
-  } 
-  next()
-})
+// router.beforeEach((to, from, next) => {
+//   // console.log(to);
+//   if (to.path === '/login') return next();
+//   const tokenStr = window.localStorage.getItem('token');
+//   if (!tokenStr ||tokenStr=='undefined')
+//   {
+//     console.log('token');
+//     return next('/login');
+//   } 
+//   next()
+// })
 
 export default router;
